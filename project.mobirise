@@ -1253,7 +1253,9 @@
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "video02-1a"
+          "_anchor": "video02-1a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     },
