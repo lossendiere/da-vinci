@@ -56,7 +56,10 @@
       }
     ],
     "PWA": {
-      "enabled": true
+      "enabled": true,
+      "name": "",
+      "icon": "@ADDONS_PATH@/pwa-builder/assets/icons/512x512.png",
+      "themeColor": "#ff8a73"
     },
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
