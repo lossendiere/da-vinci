@@ -79,7 +79,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "// This is the \"Offline page\" service worker\n\n// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker\n\n// Check compatibility for the browser we're running this in\nif (\"serviceWorker\" in navigator) {\n  if (navigator.serviceWorker.controller) {\n    console.log(\"[PWA Builder] active service worker found, no need to register\");\n  } else {\n    // Register the service worker\n    navigator.serviceWorker\n      .register(\"pwabuilder-sw.js\", {\n        scope: \"./\"\n      })\n      .then(function (reg) {\n        console.log(\"[PWA Builder] Service worker has been registered for scope: \" + reg.scope);\n      });\n  }\n}",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
@@ -499,7 +499,9 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
