@@ -53,6 +53,11 @@
         "css": "'Patrick Hand', handwriting",
         "name": "Patrick Hand",
         "url": "https://fonts.googleapis.com/css?family=Patrick+Hand:400"
+      },
+      {
+        "css": "'IBM Plex Sans', sans-serif",
+        "name": "IBM Plex Sans",
+        "url": "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
       }
     ],
     "PWA": {
@@ -70,8 +75,9 @@
     "gdpr": "",
     "google-analytics": "",
     "uniqCompNum": 131,
-    "versionPublish": "4.10.7",
-    "screenshot": "screenshot.png"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "imageResize": true
   },
   "pages": {
     "index.html": {
